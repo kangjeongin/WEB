@@ -1,0 +1,120 @@
+11.09 토
+
+WEB1 
+
+웹페이지 만들기 START
+
+웹페이지 만드는 언어 : HTML(쉽다)
+
+웹 페이지니까 웹브라우저 필요 + editor(메모장, ATOM)
+
+(+) 폴더 > 파일 ㅋㅋ
+
+웹페이지 확장자는 .html
+
+ctrl + o (내 컴퓨터에 있으니까 파일 열기) : 브라우저에서 아톰 코드 결과 보기
+
+
+
+
+태그!!
+열리는 태그, 닫히는 태그라고 한다
+
+1. 진하게 하기 :  <strong> 어쩌구 </strong>
+2. 밑줄 : <u> 어쩌구 </u>
+3. heading tag(제목 태그) 
+자동줄바꿈 + 크기
+<h1> <h2> ~ <h6>숫자 클수록 사이즈 작아짐
+
+4. 
+1) html new line tag : <br>  닫히는거 안 필요(자동 줄바꿈//두번이면 단락구분이겠지)
+2) paragraph tag : 문단 처음에<p> 문단 끝에</p> -> 문단 구분알리기 위함
+
+
+
+5. 이미지 넣기 : <img src="주소어쩌구.jpg" width=100%>
+src = source
+
+저 코드에서 속성이란 : src, width 를 말한다(순서 상관x)
+
+(unsplash 사이트 이용하기 (이미지 공짜)파일에 넣어놓고 사용해야겠지)
+
+
+6. 목차(리스트)만들기 -> 점만들기(<li>쓰려면 li의 부모태그인 <ul>써야)
+<ul>
+  <li>1. HTML</li>
+  <li>2. CSS</li>
+  <li>3. JavaScript</li>
+</ul>
+
+(ctrl 누르면서 삽입할 곳 다 누르면 한번에 여러개 똑같은 거 넣을 수 있다)
+
+
+
+<ul>은 순서 없는 목록(unlisted list)// <ol>은 순서 자동으로(1억개 수정할 때 사용되겠지)(ordered list)
+<ol>
+  <li> HTML</li>
+  <li> CSS</li>
+  <li> JavaScript</li>
+</ol> 
+-> 순서 안써도 된당
+
+
+7. 웹페이지 뜰 때 이름 파일명으로 되어있는데 네이버처럼 바꾸기
+<title> WEB1 - html</title>
+
+
+8. 한글이 깨질 때는 <meta charset="utf-8">
+
+9. 모든 것들 <head>  </head> 랑 <body>  </body> 로 헤드랑 본문 구분한다-> 그 상위태그가 <html>  </html>  -> 그 상위태그가 <!doctype html>
+
+10.  링크걸기 = 하이퍼 텍스트 
+<a href = 어쩌구>
+
+새탭으로 열리고 싶을 때는 <a href = https://ko.wikipedia.org/wiki/HTML target="_blank">
+
+커서대면 뭔지 대충 알 수 있게 하고프면 title="어쩌구" 속성 추가
+
+ 
+================================웹서버 설치하고 가능한 것들=======================
+
+
+11.동영상 삽입 : iframe 태그
+
+  <iframe width="560" height="315"
+    src ="https://youtu.be/50JOpxN0554" frameborder="0" allowfullscreen> </iframe>
+
+
+
+
+
+12. 댓글기능 추가(html로는 불가하고//백엔드 : PHP, JSP, 파이썬, 장고 + 데이터베이스)
+남들이 만든 댓글 포함시켜보기
+
+EX) DISQUS, LiveRe
+
+로그인-> 관리자로 들어가기 -> YOUR SITE-> NEW -> UNIVERSIAL CODE
+
+카피해서 붙여넣기(웹서버 이용해서 해야겠지//127.0.0.1(또는 localhost)/index.html)
+
+
+
+
+
+13. 채팅기능 추가
+
+tawk 로그인해서 Admin 클릭 -> widget code 복사 후 붙여넣기
+
+
+
+
+14. 웹사이트 방문자 분석기
+
+analytics.google.com 로그인 -> tracking code 복사 후 붙여넣기
+
+
+
+
+
+
+
